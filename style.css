@@ -1,0 +1,115 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f5f7f5;
+color:#1d2b1d;
+}
+
+.header{
+background:#1e3f2b;
+text-align:center;
+padding:25px;
+}
+
+.logo{
+max-width:220px;
+}
+
+.section{
+padding:50px 20px;
+text-align:center;
+}
+
+h2{
+color:#1e3f2b;
+margin-bottom:30px;
+}
+
+.card{
+background:white;
+max-width:400px;
+margin:auto;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.1);
+}
+
+.obras{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:20px;
+max-width:700px;
+margin:auto;
+}
+
+.obras img{
+width:100%;
+background:white;
+padding:10px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.quienes{
+background:url("farmacia.jpg") center/cover no-repeat;
+position:relative;
+color:white;
+}
+
+.overlay{
+background:rgba(0,0,0,0.65);
+padding:80px 20px;
+}
+
+.overlay p{
+max-width:700px;
+margin:auto;
+line-height:1.6;
+}
+
+iframe{
+width:100%;
+max-width:600px;
+height:350px;
+border:0;
+border-radius:10px;
+}
+
+.mapslink{
+margin-top:20px;
+}
+
+.mapslink a{
+text-decoration:none;
+color:#1e3f2b;
+font-weight:bold;
+}
+
+.instagram{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#1e3f2b;
+color:white;
+padding:15px 20px;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 6px 15px rgba(0,0,0,0.2);
+}
+
+.instagram:hover{
+background:#2e6b4a;
+}
+
+@media(max-width:768px){
+
+.section{
+padding:40px 15px;
+}
+
+.logo{
+max-width:180px;
+}
+
+}
