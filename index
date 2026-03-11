@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verde Canning - Farmacia y Perfumería</title>
+<style>
+  body { font-family: 'Arial', sans-serif; background: #f9fdfa; color: #2f4f2e; margin: 0; padding: 0; }
+  header { background-color: #225522; color: white; padding: 1rem 2rem; text-align: center; }
+  h1, h2 { margin-top: 0; }
+  main { max-width: 900px; margin: auto; padding: 1rem 2rem; }
+  section { margin-bottom: 2rem; }
+  .obras-sociales img { max-height: 80px; margin-right: 1rem; vertical-align: middle; }
+  .contacto a { color: #194419; text-decoration: none; font-weight: bold; }
+  iframe { width: 100%; height: 300px; border: none; border-radius: 8px; }
+  footer { background-color: #194419; color: white; text-align: center; padding: 1rem; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Verde Canning Farmacia y Perfumería</h1>
+</header>
+<main>
+  <section id="quienes-somos" style="position: relative; color: white;">
+    <h2>Quiénes somos</h2>
+    <div style="position: absolute; inset: 0; opacity: 0.25; background: url('image---4d1b6754-95a9-4488-a3ec-12deb012ae6a.png') no-repeat center center/cover;"></div>
+    <p style="position: relative; z-index: 1;">Verde Canning Farmacia y Perfumería es un espacio pensado para cuidar tu salud y bienestar. Ofrecemos medicamentos, perfumería y productos para toda la familia, con atención cercana, asesoramiento profesional y promociones pensadas para nuestra comunidad.</p>
+  </section>
+  <section id="ubicacion">
+    <h2>Ubicación</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.9457665253587!2d-58.74192808478322!3d-34.54412825666831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb438db4f770f%3A0x2642396f2cad6c5f!2sVerde%20Canning!5e0!3m2!1ses-419!2sar!4v1673344820646!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+  <section id="obras-sociales">
+    <h2>Obras Sociales</h2>
+    <img src="13755ba5-8bee-44d3-ab05-1b23e449023e---9ad8464e-0b7a-4c0b-9005-e31f5ea24a09.jpg" alt="Luis Pasteur" />
+    <img src="15cc294c-dd0e-4749-bda9-e2b1975dc326---b52dbdd0-0cc3-4753-a7bb-79577001d6bf.jpg" alt="Medifé" />
+    <img src="1d35b82a-222e-4617-849a-ef0ae73a5f40---836446d0-dc18-427c-b637-57795d5fddd7.jpg" alt="Avalian" />
+    <img src="34be9ffc-63e2-43b1-95ea-5f7748dc9d13---abd58225-1bf8-4449-94fe-c257cd9fa12b.jpg" alt="OSPF" />
+  </section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Instagram: <a href="https://www.instagram.com/verdecanning" target="_blank">@verdecanning</a></p>
+    <p>Teléfono: <a href="tel:+541166482204">11 6648-2204</a></p>
+  </section>
+</main>
+<footer>
+  &copy; 2026 Verde Canning Farmacia y Perfumería
+</footer>
+</body>
+</html>
